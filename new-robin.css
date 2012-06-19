@@ -16,6 +16,9 @@ h1, h2, h3 {
 p:first-of-type {
     margin-top: 0;
 }
+p {
+    line-height:    1.4;
+}
 
 header h1 {
     font-size:      3em;
