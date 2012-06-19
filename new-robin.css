@@ -13,11 +13,17 @@ h1, h2, h3 {
     letter-spacing: 2px;
     margin-bottom: 0;
 }
+h2 {
+    font-size:  2em;
+}
 p:first-of-type {
     margin-top: 0;
 }
 p {
     line-height:    1.4;
+}
+section {
+    margin-top: 3em;
 }
 
 header h1 {
@@ -39,6 +45,10 @@ header .author a {
     border-bottom:  1px dotted #999;
 }
 
+.abstract {
+    font-style: italic;
+    margin-top: 5em;
+}
 
 
 @media print {
